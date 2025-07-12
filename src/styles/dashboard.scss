@@ -1,0 +1,72 @@
+.pane {
+    background: #fff;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #eee;
+    margin: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: 500;
+    opacity: 1;
+    color: black;
+}
+
+.signRect {
+    stroke: grey;
+    stroke-width: 2px;
+    fill: white;
+}
+
+.signText {
+    font-size: 15px;
+}
+
+.inRect {
+    stroke: black;
+    stroke-width: 2px;
+    fill: #FFCDD2;
+}
+
+.outRect {
+    stroke: black;
+    stroke-width: 2px;
+    fill: #C8E6C9;
+}
+/* #64B5F6 */
+
+.infoRect {
+    stroke: grey;
+    stroke-width: 2px;
+    fill: white;
+}
+
+.infoText {
+    font-size: 11px;
+    fill: #555;
+}
+
+.infoTextTitle {
+    font-size: 12px;
+    fill: black;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.moduleTextTitle {
+    font-size: 11px;
+    fill: black;
+    font-weight: 600;
+}

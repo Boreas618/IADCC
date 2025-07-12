@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#main-view {
+    background: white;
+}
+
+#navigator-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#playback-controller {
+    order: 1;
+}
+
+#navigator {
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
+}
+
+.row {
+    margin-left: 20px;
+    margin-top: 18px;
+    height: 32px;
+    width: 96px;
+}
+
+#control-panel-content {
+    display: inline-flex;
+}
+
+#filter #horizon_chart {
+    flex: 1;
+}
+
+#control-panel > div.header {
+    background-color: #eee;
+    margin: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: 500;
+    opacity: 1;
+    color: black;
+}
+
+#scene-view > div.header {
+    background-color: #eee;
+    margin: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: 500;
+    opacity: 1;
+    color: black;
+}
+
+.horizon-series {
+    padding-bottom: 4px;
+    border-top-width: 0px;
+    border: white;
+}
+
+#header {
+    background: inherit;
+    font-size: large;
+    font-weight: bold;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
